@@ -1,16 +1,23 @@
 import { useState } from 'react'
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Navbar from './components/Navbar'
 import './App.css'
+import Home from './pages/Home';
 
 function App() {
 
   return (
     <>
-      <div>
+      <Navbar/>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home />} />
+        </Routes>
+      </BrowserRouter>
 
-        <img width="55px" src='tian.png'></img>
-        <img width="50px" src='hui.png'></img>
 
-      </div>
     </>
   )
 }

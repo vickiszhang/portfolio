@@ -1,0 +1,16 @@
+.background {
+  align-items: center;
+  justify-content: center;
+  /* display: flex; */
+
+}
+
+.background::before {
+    align-items: center;
+    justify-content: center;
+    content: 'Vicki Zhang';
+    position: absolute;
+    font-size: 500px; 
+    color: beige[]; 
+    opacity: 0.2;
+  }

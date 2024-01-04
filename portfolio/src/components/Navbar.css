@@ -1,0 +1,36 @@
+
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    background-color: rgb(190, 190, 190);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.nav-left {
+    margin-left: 20px;
+}
+
+.nav-right {
+    margin-right: 20px;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+.nav-list li {
+    display: inline;
+    margin-right: 40px;
+    font-size: 24px;
+
+}
+
+.nav-list li:hover {
+    color: pink;
+}
