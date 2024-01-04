@@ -1,6 +1,7 @@
 import './Navbar.css'
 
 const Navbar: React.FC = () => {
+
     return (
       <div className='navbar'>
         <div className='nav-left'>
@@ -9,9 +10,15 @@ const Navbar: React.FC = () => {
         </div>
         <div className='nav-right'>
             <ul className='nav-list'>
-                <li>about</li>
-                <li>experience</li>
-                <li>projects</li>
+                <li>
+                    <a href="#about">about</a>
+                </li>
+                <li>
+                    <a href="#experience">experience</a>
+                </li>
+                <li>
+                    <a href="">project</a>
+                </li>
             </ul>
         </div>
       </div>
