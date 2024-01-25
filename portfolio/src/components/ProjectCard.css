@@ -1,0 +1,8 @@
+.project-card {
+    width:500px;
+    height: 200px; 
+}
+
+.project-card:hover {
+    background-color: rgb(246, 246, 246);
+}
