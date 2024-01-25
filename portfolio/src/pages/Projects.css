@@ -6,6 +6,10 @@
     font-weight: bold;
 
 }
+
+.projects-title:hover {
+    color: pink;
+}
 .projects {
     justify-content: center;
     align-items: center;

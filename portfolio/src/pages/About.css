@@ -19,7 +19,7 @@
 .description {
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between; 
 }
 
 .photo {
@@ -31,8 +31,13 @@
 .bio {
     height: 450px;
     width: 450px;
+    padding: 0px 40px 0px 40px;
 }
 
 .experience {
     margin-top: 100px;
+}
+
+.icon:hover {
+    color: pink;
 }

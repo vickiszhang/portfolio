@@ -6,7 +6,9 @@ const ProjectCard: React.FC = () => {
 
     return (
       <div className="project-card">
-        card!
+        <h1> title</h1>
+        <h1> tools</h1>
+
       </div>
     );
   };

@@ -25,8 +25,13 @@ const About: React.FC = () => {
           </div>
           <div className='bio'>
             <p>
-              I am a student majoring in computer science and statistics at UBC.
+              I am currently a 4th student majoring in computer science and statistics at UBC. 
+              I am working to develop my skills as a software developer through creating personal projects and 
+
+
               ...
+
+              I like to spend my time playing video games, going to the gym, and ice skating.
             </p>
           </div>
         </div>
