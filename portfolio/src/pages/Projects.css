@@ -1,0 +1,17 @@
+.projects-title {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+.projects-title:hover {
+    color: pink;
+}
+.projects {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
