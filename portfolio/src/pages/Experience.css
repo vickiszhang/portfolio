@@ -1,5 +1,12 @@
-.experience {
+.experience-title {
     justify-content: center;
     align-items: center;
     display: flex;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+.experience {
+    justify-content: center;
+    align-items: center;
 }

@@ -6,9 +6,15 @@ const About: React.FC = () => {
     <div id="about" className='main'>
       <div className="about">
         <div>
-          <img width="50px" src='github.svg'></img>
-          <img width="50px" src='linkedin.svg'></img>
-          <img width="50px" src='email.svg'></img>
+          <a href="https://github.com/vickiszhang" target="_blank" rel="noopener noreferrer">
+            <img width="50px" src='github.svg'></img>
+          </a>
+          <a href="https://linkedin.com/in/vickiszhang" target="_blank" rel="noopener noreferrer">
+            <img width="50px" src='linkedin.svg'></img>
+          </a>
+          <a href="mailto:vickiszhang@gmail.com">
+            <img width="50px" src='email.svg'></img>
+          </a>
         </div>
         <div className='name'>
           <h1>vicki&nbsp;&nbsp;zhang</h1>

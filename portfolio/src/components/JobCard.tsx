@@ -1,19 +1,33 @@
 import './JobCard.css'
+import React from 'react';
 
-const JobCard: React.FC = () => {
+
+interface JobCardProps {
+  tools: string[];
+  title: string;
+  duration: string;
+  desc: string;
+}
+
+const JobCard: React.FC<JobCardProps> = ({title, duration, tools, desc }) => {
 
     return (
       <div className="mainCard">
-        <h1> position</h1>
-        <div>
-            <h1> company</h1>
-            <h1> duration</h1>
+        <div className='card-top'>
+          <h1 className='job-title'> {title} </h1>         
+          <h1 className='job-duration'> {duration}</h1>
         </div>
-        <div>
-            tools
+        <div className='job-tools'>
+          <div className='tool-bubbles'>
+            {tools.map((tool, index) => (
+              <div key={index} className='tool-bubble'>
+                {tool}
+              </div>
+            ))}
+          </div>
         </div>
-        <div>
-            description
+        <div className='job-desc'>
+            {desc}
         </div>
       </div>
     );
