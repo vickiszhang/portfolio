@@ -31,6 +31,10 @@
     margin: 0px 20px 20px 20px;
 }
 
+.job-desc {
+    font-size: 18px;
+}
+
 .tool-bubbles {
     display: flex;
     gap: 10px

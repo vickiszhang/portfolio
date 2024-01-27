@@ -1,4 +1,5 @@
 
+import PhotoViewer from '../components/PhotoViewer';
 import './About.css'
 
 const About: React.FC = () => {
@@ -24,19 +25,20 @@ const About: React.FC = () => {
         </div>
         <div className='description'>
           <div className='photo'>
-            <img src='me/me1.jpg'></img>
+            <PhotoViewer/>
           </div>
           <div className='bio'>
             <p>
               I am currently a 4th student majoring in computer science and statistics at UBC. 
-              I am working to develop my skills as a software developer through creating personal projects and 
+              I am working to develop my skills as a software developer through creating personal projects and finding interships.
 
+              Nowadays I am working on the mobile view for this website :'), and a full stack app to connect gamers. 
 
-              ...
+              I am looking to pivot more towards game development and computer graphics.
 
-              My ongoing projects are: mobile view for this website :')
+              In my free time I like to go to the gym, play games, ice skating, but most often binging reality tv shows.
 
-              I like to spend my time playing video games, going to the gym, and ice skating.
+              Check out my portfolio below!
             </p>
           </div>
         </div>

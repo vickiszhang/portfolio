@@ -15,7 +15,7 @@
 }
 
 .nav-left {
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .nav-right {
@@ -36,7 +36,7 @@
 }
 
 .nav-list li.active a {
-    color: rgb(183, 89, 103);
+    color: rgb(255, 109, 131);
     /* -webkit-text-stroke: 1px;
     text-shadow: #000 0px 0px 1px; */
 }
@@ -48,8 +48,8 @@
 }
 
 .nav-list li a:hover {
-    color: rgb(183, 89, 103);
+    color:rgb(255, 109, 131);
 }
 li.link-selected {
-    color: rgb(183, 89, 103);
+    color: rgb(255, 109, 131);
 }
