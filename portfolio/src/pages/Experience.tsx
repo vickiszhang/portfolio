@@ -13,7 +13,15 @@ const Experience: React.FC = () => {
         <JobCard title="Full Stack Developer • Public Health Agency of Canada"
                   duration="May 2023 - Present" 
                   tools={["Python", "MongoDB", "SQL", "AWS"]}
-                  desc="I standardized the development of Python scripts across various projects, automating data collection through web scraping. This initiative streamlined development workflows, providing a consistent and efficient approach to gather essential information. Additionally, I played a key role in enhancing the user interface of a Django data collection application. By implementing error display functionalities for form entries, I significantly improved the user experience. Furthermore, I contributed to optimizing file transfers within the development environment by developing an API wrapper. This wrapper simplified large file submissions through Liquidfiles, enhancing the overall efficiency of file transfer processes."/>
+                  desc="At my 4 month co-op at PHAC, I had the opportunity to develop my skills in Python development. This included creating multiple web scraping scripts to facilitate data access across many projects, as well as refactoring UI components in a Django data collection app to display informative errors. TODO"/>
+        <JobCard title="Developer Executive • UBC Esports Association"
+                  duration="Oct 2023 - Present"
+                  tools={["React.js", "Javascript", "Wordpress"]}
+                  desc="Currently helping to maintain the club website, and working on a web app to display live club PC room usage."/>
+        <JobCard title="Software Developer • UBC Computer Science Student Society"
+                  duration="Oct 2023 - Present"
+                  tools={["Next.js", "Typescript", "Javascript"]}
+                  desc="A tech consulting program by CSSS, working on a new web application for the UBC volleyball club."/>
         <JobCard title="AI/ML Engineer • Convergence"
                   duration="Sept 2022 - April 2023" 
                   tools={["Python", "Django", "R", "GCP", "Azure"]}

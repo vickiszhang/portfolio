@@ -4,12 +4,13 @@
     width: 100%;
     height: 80px;
     margin: 0;
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(206, 206, 206);
     justify-content: space-between;
     align-items: center;
     display: flex;
     position: sticky;
     top: 0;
+    z-index: 1000; 
 }
 
 .nav-left {
@@ -18,6 +19,7 @@
 
 .nav-right {
     margin-right: 20px;
+
 }
 
 .nav-list {
@@ -31,6 +33,11 @@
     margin-right: 40px;
     font-size: 24px;
 }
+
+.nav-list li.active a {
+    color: pink;
+  }
+  
 
 .nav-list li a {
     color: black;

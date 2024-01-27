@@ -6,8 +6,10 @@ interface ProjectCardProps {
   tools: string[],
   desc: string,
   image: string,
+  url: string,
+  overlay: string,
 }
-const ProjectCard: React.FC<ProjectCardProps> = ({title, tools, desc, image}) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({title, tools, desc, image, url, overlay}) => {
 
     return (
       <div className="project-card">
@@ -26,10 +28,14 @@ const ProjectCard: React.FC<ProjectCardProps> = ({title, tools, desc, image}) =>
         <div className='project-desc'>
             {desc}
         </div>
-        <div className='project-demo'>
-          <img src={image}>
-          </img>
-        </div>
+        <a href={url} target="_blank" rel="noopener noreferrer">
+          <div className='project-demo'>
+            <img className="image" src={image}/>
+            <div className='image-overlay'>
+              {overlay}
+            </div>
+          </div>
+        </a>
       </div>
     );
   };

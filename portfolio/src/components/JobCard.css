@@ -1,7 +1,10 @@
 .mainCard {
     border-radius: 10px;
     width: 800px;
+    height: auto;
     padding: 24px;
+    margin: 10px;
+
 }
 
 .mainCard:hover {
