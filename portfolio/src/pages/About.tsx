@@ -31,6 +31,8 @@ const About: React.FC = () => {
 
               ...
 
+              My ongoing projects are: mobile view for this website :')
+
               I like to spend my time playing video games, going to the gym, and ice skating.
             </p>
           </div>
