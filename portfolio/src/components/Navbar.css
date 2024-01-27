@@ -4,7 +4,8 @@
     width: 100%;
     height: 80px;
     margin: 0;
-    background-color: rgb(206, 206, 206);
+    /* background-color: rgb(206, 206, 206); */
+    background-color: transparent;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -35,8 +36,10 @@
 }
 
 .nav-list li.active a {
-    color: pink;
-  }
+    color: rgb(183, 89, 103);
+    /* -webkit-text-stroke: 1px;
+    text-shadow: #000 0px 0px 1px; */
+}
   
 
 .nav-list li a {
@@ -45,8 +48,8 @@
 }
 
 .nav-list li a:hover {
-    color: pink;
+    color: rgb(183, 89, 103);
 }
 li.link-selected {
-    color: pink;
+    color: rgb(183, 89, 103);
 }

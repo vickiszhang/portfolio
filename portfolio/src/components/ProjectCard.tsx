@@ -14,7 +14,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({title, tools, desc, image, url
     return (
       <div className="project-card">
         <div className='card-top'>
-          <h1 className='project-title'> {title} </h1>         
+          <h1 className='project-title'> {title} </h1>    
         </div>        
         <div className='project-tools'>
           <div className='tool-bubbles'>
@@ -32,7 +32,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({title, tools, desc, image, url
           <div className='project-demo'>
             <img className="image" src={image}/>
             <div className='image-overlay'>
+              <div className="goto">
+                <img src="goto.png"/>
+              </div>
               {overlay}
+
             </div>
           </div>
         </a>

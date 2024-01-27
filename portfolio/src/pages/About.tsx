@@ -5,23 +5,26 @@ const About: React.FC = () => {
   return (
     <div id="about" className='main'>
       <div className="about">
-        <div>
-          <a href="https://github.com/vickiszhang" target="_blank" rel="noopener noreferrer">
-            <img width="50px" src='github.svg'></img>
-          </a>
-          <a href="https://linkedin.com/in/vickiszhang" target="_blank" rel="noopener noreferrer">
-            <img width="50px" src='linkedin.svg'></img>
-          </a>
-          <a href="mailto:vickiszhang@gmail.com">
-            <img width="50px" src='email.svg'></img>
-          </a>
+        <div className='socials-outer'>
+          <div className='socials'>
+            <a href="https://github.com/vickiszhang" target="_blank" rel="noopener noreferrer">
+              <img width="50px" src='github.svg'></img>
+            </a>
+            <a href="https://linkedin.com/in/vickiszhang" target="_blank" rel="noopener noreferrer">
+              <img width="50px" src='linkedin.svg'></img>
+            </a>
+            <a href="mailto:vickiszhang@gmail.com">
+              <img width="50px" src='email.svg'></img>
+            </a>
+          </div>
         </div>
+  
         <div className='name'>
           <h1>vicki&nbsp;&nbsp;zhang</h1>
         </div>
         <div className='description'>
           <div className='photo'>
-            photo
+            <img src='me/me1.jpg'></img>
           </div>
           <div className='bio'>
             <p>

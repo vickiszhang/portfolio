@@ -1,0 +1,37 @@
+.resume {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: pink;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    box-shadow: 0 0 10px rgb(116, 145, 197);
+    animation: pulsate-shadow 2s infinite alternate;
+}
+
+.resume img{
+    max-width: 20px;
+    margin-left: 5px;
+}
+
+.resume div{
+    color: white;
+    font-size: large;
+    margin-right: 5px;
+}
+
+@keyframes pulsate-shadow {
+    0% {
+      box-shadow: 0 0 1px rgb(116, 145, 197);
+    }
+    100% {
+      box-shadow: 0 0 20px rgb(116, 145, 197);
+    }
+  }

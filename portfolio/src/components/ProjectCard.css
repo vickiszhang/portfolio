@@ -20,6 +20,7 @@
 .project-title {
     font-size: 20px;
 }
+
 .project-tools {
     margin: 0px 20px 20px 20px;
 }
@@ -65,8 +66,14 @@
     justify-content: center;
     align-items: center;
 }
-  
+
 .project-demo:hover .image-overlay {
     display: flex; 
 }
   
+.goto {
+    top: 10px;
+    right: 10px;
+    position: absolute;
+    width: 20px;
+}
