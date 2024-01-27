@@ -4,9 +4,10 @@ import React from 'react';
 interface ProjectCardProps {
   title: string,
   tools: string[],
-  desc: string
+  desc: string,
+  image: string,
 }
-const ProjectCard: React.FC<ProjectCardProps> = ({title, tools, desc}) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({title, tools, desc, image}) => {
 
     return (
       <div className="project-card">
@@ -26,7 +27,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({title, tools, desc}) => {
             {desc}
         </div>
         <div className='project-demo'>
-          photo
+          <img src={image}>
+          </img>
         </div>
       </div>
     );
