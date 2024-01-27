@@ -7,6 +7,23 @@
     margin-bottom: 100px;
 }
 
+.socials-outer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.socials a {
+    
+}
+
 .about {
     text-align: center;
     margin-top: 80px;
@@ -14,24 +31,43 @@
 
 .name h1:hover {
     color: pink;
+    cursor: default;
+    /* background-color: red; */
 }
 
 .description {
     margin-top: 50px;
     display: flex;
-    justify-content: space-between; 
+    /* justify-content: space-between;  */
 }
 
 .photo {
     height: 450px;
     width: 450px;
-    background-color: gray;
+    overflow: hidden;
 }
+
+.photo img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    object-position: center; 
+}
+
 
 .bio {
     height: 450px;
     width: 450px;
     padding: 0px 40px 0px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bio p {
+    line-height: 2.4rem;
+    text-align: left;
+    font-size: larger;
 }
 
 .experience {
