@@ -39,8 +39,8 @@ const Navbar: React.FC = () => {
     return (
       <div className='navbar'>
         <div className='nav-left'>
-            <img width="55px" src='tian.png'></img>
-            <img width="50px" src='hui.png'></img>
+            <img width="45px" src='tian.png'></img>
+            <img width="40px" src='hui.png'></img>
         </div>
         <div className='nav-right'>
             <ul className='nav-list'>
