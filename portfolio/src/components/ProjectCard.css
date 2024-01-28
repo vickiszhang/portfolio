@@ -6,10 +6,10 @@
 }
 
 .project-card {
-    width:500px;
+    width:380px;
     height: auto; 
     border-radius: 10px;
-    padding: 24px;
+    padding: 16px;
     margin: 10px;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .project-title {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .project-tools {
@@ -35,11 +35,12 @@
     border-radius: 10px;
     padding: 1px 10px 0px 10px;
     width: auto;
+    font-size: 14px;
 }
 
 .project-desc {
     margin: 0px 20px 10px 20px;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .project-demo {

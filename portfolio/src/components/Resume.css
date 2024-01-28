@@ -1,9 +1,9 @@
 .resume {
     position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    width: 150px;
-    height: 50px;
+    bottom: 1.8rem;
+    right: 1.8rem;
+    width: 120px;
+    height: 40px;
     border-radius: 30px;
     background-color: pink;
     border: none;
@@ -18,13 +18,13 @@
 }
 
 .resume img{
-    max-width: 20px;
+    max-width: 16px;
     margin-left: 5px;
 }
 
 .resume div{
     color: white;
-    font-size: large;
+    font-size: 14px;
     margin-right: 5px;
 }
 
