@@ -9,16 +9,6 @@ const PhotoViewer: React.FC<PhotoViewerProps> = () => {
   const images = ['me1.jpg', 'me2.jpg', 'me3.jpg'];
   const currentImage = images[currentImageIndex];
 
-  const handleNextClick = () => {
-    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-  };
-
-  const handlePrevClick = () => {
-    setCurrentImageIndex((prevIndex) =>
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
-    );
-  };
-
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
