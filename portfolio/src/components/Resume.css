@@ -14,6 +14,7 @@
 
     box-shadow: 0 0 10px rgb(116, 145, 197);
     animation: pulsate-shadow 2s infinite alternate;
+    z-index: 10000
 }
 
 .resume img{
