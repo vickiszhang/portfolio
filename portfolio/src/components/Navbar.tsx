@@ -6,9 +6,16 @@ const Navbar: React.FC = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-          const aboutOffset = document.getElementById('about')?.offsetTop;
-          const experienceOffset = document.getElementById('experience')?.offsetTop;
-          const projectsOffset = document.getElementById('projects')?.offsetTop;
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          let aboutOffset: any = 0;
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          let experienceOffset: any = 0;
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          let projectsOffset: any = 0;
+
+          aboutOffset = document.getElementById('about')?.offsetTop;
+          experienceOffset = document.getElementById('experience')?.offsetTop;
+          projectsOffset = document.getElementById('projects')?.offsetTop;
     
           const scrollPosition = window.scrollY;
     
@@ -16,7 +23,7 @@ const Navbar: React.FC = () => {
             setActiveSection(null);
           } else if (scrollPosition < experienceOffset - 150) {
             setActiveSection('about');
-          } else if (scrollPosition < projectsOffset - 150) {
+          } else if (scrollPosition < projectsOffset - 1) {
             setActiveSection('experience');
           } else {
             setActiveSection('projects');
