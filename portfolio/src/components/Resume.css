@@ -2,7 +2,7 @@
     position: fixed;
     bottom: 1.8rem;
     right: 1.8rem;
-    width: 120px;
+    width: 140px;
     height: 40px;
     border-radius: 30px;
     background-color: pink;
@@ -24,7 +24,7 @@
 
 .resume div{
     color: white;
-    font-size: 14px;
+    font-size: 18px;
     margin-right: 5px;
 }
 
