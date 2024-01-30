@@ -13,7 +13,7 @@ const Experience: React.FC = () => {
         <JobCard title="Full Stack Developer • Public Health Agency of Canada"
                   duration="May 2023 - Present" 
                   tools={["Python", "Django", "R", "GCP", "Azure", "Docker"]}
-                  desc="At my 4 month co-op at PHAC, I had the opportunity to develop my skills in Python development. This included creating multiple web scraping scripts to facilitate data access across many projects, as well as refactoring UI components in a Django data collection app to display informative errors. I undertook some data analysis tasks, including a Covid 19 Data analysis report covering millions of lines of data."/>
+                  desc="At my 4 month co-op at PHAC, I had the opportunity to develop my skills in Python development. This included creating multiple web scraping scripts to facilitate data access across many projects, as well as refactoring UI components in a Django data collection app to display informative errors. I undertook some data analysis tasks, including a Covid 19 Data analysis report covering millions of lines of data. I am currently working here part-time."/>
         <JobCard title="Developer Executive • UBC Esports Association"
                   duration="Oct 2023 - Present"
                   tools={["React.js", "Javascript", "Wordpress"]}
