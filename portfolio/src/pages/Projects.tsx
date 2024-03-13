@@ -9,6 +9,12 @@ const Projects: React.FC = () => {
           projects
       </div>
       <div className="projects">
+        <ProjectCard title="ElectionGuard • cmd-f 2024" 
+                      tools={["React.js", "MongoDB", "Express.js","Node.js", "Javascript"]}
+                      desc="Classifies truthfulness of political texts with, tone, bias, and criticality metrics, leveraging Cohere LLM API and DeepL language translation."
+                      image="electionguard.png"
+                      url="https://devpost.com/software/election-guard"
+                      overlay='Check out our Devpost!'/>
         <ProjectCard title="PoolPal • NWHacks 2024" 
                       tools={["React.js", "MongoDB", "Express.js","Node.js", "TailwindCSS", "Javascript", "Typescript"]}
                       desc="An eco-friendly carpooling app seamlessly integrating Auth0 for secure authentication and Google Maps API to connect users, fostering sustainable transportation choices and reducing carbon footprint."
