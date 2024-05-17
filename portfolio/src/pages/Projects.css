@@ -19,4 +19,7 @@
     flex-wrap: wrap;
 
 }
-
+.video {
+    width: 100%;
+    height: auto;
+  }

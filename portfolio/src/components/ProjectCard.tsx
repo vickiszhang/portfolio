@@ -8,8 +8,9 @@ interface ProjectCardProps {
   image: string,
   url: string,
   overlay: string,
+  video?: boolean
 }
-const ProjectCard: React.FC<ProjectCardProps> = ({title, tools, desc, image, url, overlay}) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({title, tools, desc, image, url, overlay, video = false}) => {
 
     return (
       <div className="project-card">
@@ -30,7 +31,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({title, tools, desc, image, url
         </div>
         <a href={url} target="_blank" rel="noopener noreferrer">
           <div className='project-demo'>
-            <img className="image" src={image}/>
+          {video ? (
+          <video className="video" src={image} loop autoPlay muted playsInline />
+            ) : (
+              <img className="image" src={image} />
+            )}
             <div className='image-overlay'>
               <div className="goto">
                 <img src="goto.png"/>

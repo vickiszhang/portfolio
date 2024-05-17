@@ -11,7 +11,7 @@ const Experience: React.FC = () => {
       <div className="experience">
         
         <JobCard title="Full Stack Developer • Public Health Agency of Canada"
-                  duration="May 2023 - Present" 
+                  duration="May 2023 - April 2024" 
                   tools={["Python", "Django", "R", "GCP", "Azure", "Docker"]}
                   desc="At my 4 month co-op at PHAC, I had the opportunity to develop my skills in Python development. This included creating multiple web scraping scripts to facilitate data access across many projects, as well as refactoring UI components in a Django data collection app to display informative errors. I undertook some data analysis tasks, including a Covid 19 Data analysis report covering millions of lines of data. I am currently working here part-time."/>
         <JobCard title="Developer Executive • UBC Esports Association"
