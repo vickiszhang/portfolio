@@ -9,6 +9,19 @@ const Projects: React.FC = () => {
           projects
       </div>
       <div className="projects">
+      <ProjectCard title="Chicken! 2D Platformer" 
+                      tools={["C#", "Unity"]}
+                      desc="A small 2D scene created in Unity with sprite animations, parallax effect, player movement, and coin collection logic."
+                      image="game.mp4"
+                      url="https://github.com/vickiszhang/unity-basic"
+                      overlay='Check out the source code!'
+                      video/>
+        <ProjectCard title="Oniva • YouCode 2024" 
+                      tools={["React.js", "Express.js","Node.js", "Javascript", "Tailwind CSS"]}
+                      desc="Oniva activity finder allows users to get recommended a trail according to either activity preferences or the gear they currently own. Oniva pairs the recommended activity with matching Arc'teryx products, allowing users to seamlessly make purchases."
+                      image="oniva.png"
+                      url="https://devpost.com/software/oniva"
+                      overlay='Check out our Devpost!'/>
         <ProjectCard title="ElectionGuard • cmd-f 2024" 
                       tools={["React.js", "MongoDB", "Express.js","Node.js", "Javascript"]}
                       desc="Classifies truthfulness of political texts with, tone, bias, and criticality metrics, leveraging Cohere LLM API and DeepL language translation."
