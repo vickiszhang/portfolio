@@ -29,12 +29,12 @@ const About: React.FC = () => {
           </div>
           <div className='bio'>
             <p>
-              I am currently a 4th student majoring in computer science and statistics at UBC. 
-              I am working to develop my skills as a software developer through creating personal projects and finding interships.
+              I am currently a 4th student majoring in computer science and statistics at UBC. I anticipate graduating by May 2025. 
+              I am working to develop my skills as a software developer through creating personal projects and interships.
 
-              Nowadays I am working on the mobile view for this website :'), and a full stack app to connect gamers. 
+              Nowadays I am working on the mobile view for this website :') and experimenting with computer vision. 
 
-              I am looking to pivot more towards game development and computer graphics.
+              I am looking to pivot more towards backend development or game development.
 
               In my free time I like to go to the gym, play games, ice skating, but most often binging reality tv shows.
 
