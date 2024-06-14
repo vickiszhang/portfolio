@@ -6,7 +6,7 @@ interface PhotoViewerProps {
 const PhotoViewer: React.FC<PhotoViewerProps> = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const imageFolder = '/me'; 
-  const images = ['me1.jpg', 'me2.jpg', 'me3.jpg'];
+  const images = ['me1.jpg', 'me2.jpg', 'me3.jpg', 'me4.jpg'];
   const currentImage = images[currentImageIndex];
 
   useEffect(() => {
