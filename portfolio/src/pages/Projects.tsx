@@ -9,6 +9,12 @@ const Projects: React.FC = () => {
           projects
       </div>
       <div className="projects">
+      <ProjectCard title="Up and Away • Global Game Jam 2025" 
+                      tools={["Unity", "C#"]}
+                      desc="Inspired by Bennett Foddy's Getting Over It. Climb the level by yelling into the microphone. "
+                      image="upandaway.png"
+                      url="https://skullythirtyfour.itch.io/up-and-away"
+                      overlay='Check out the itch page!'/>
       <ProjectCard title="BarrowTech • StormHacks 2024" 
                       tools={["React.js", "TypeScript", "MATLAB", "Three.js", "Python"]}
                       desc="Optimize your wheelbarrow load placement."
