@@ -9,9 +9,12 @@ const Experience: React.FC = () => {
         experience
       </div>
       <div className="experience">
-        
+        <JobCard title="Software Development Engineer • Amazon"
+                  duration="May 2025 - Present" 
+                  tools={["TypeScript", "React.js", "Java"]}
+                  desc=""/>
         <JobCard title="Software Developer • Thrive Health"
-                  duration="September 2023 - Present" 
+                  duration="September 2023 - April 2025" 
                   tools={["TypeScript", "React.js", "Django"]}
                   desc=""/>
         <JobCard title="Developer Executive • UBC Esports Association"
