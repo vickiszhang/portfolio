@@ -1,78 +1,76 @@
-
 .main {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
 }
 
-.socials-outer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.socials-outer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.socials{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 20%;
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
 }
 
 .about {
-    text-align: center;
-    margin-top: 60px;
+  text-align: center;
+  margin-top: 60px;
 }
 
 .name {
-    font-size: 14px;
+  font-size: 14px;
 }
 .name h1:hover {
-    color: pink;
-    cursor: default;
-    /* background-color: red; */
+  color: pink;
+  cursor: default;
+  /* background-color: red; */
 }
 
 .description {
-    margin-top: 50px;
-    display: flex;
-    /* justify-content: space-between;  */
+  margin-top: 50px;
+  display: flex;
+  /* justify-content: space-between;  */
 }
 
 .photo {
-    height: 380px;
-    width: 380px;
-    overflow: hidden;
+  height: 380px;
+  width: 380px;
+  overflow: hidden;
 }
 
 .photo img {
-    width: 100%; 
-    height: 100%; 
-    object-fit: cover; 
-    object-position: center; 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
-
 .bio {
-    height: 380px;
-    width: 380px;
-    padding: 0px 0px 0px 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 380px;
+  width: 380px;
+  padding: 0px 0px 0px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .bio p {
-    line-height: 2.4rem;
-    text-align: left;
-    font-size: 16px;
+  line-height: 2.4rem;
+  text-align: left;
+  font-size: 16px;
 }
 
 .experience {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 .icon:hover {
-    color: pink;
+  color: pink;
 }

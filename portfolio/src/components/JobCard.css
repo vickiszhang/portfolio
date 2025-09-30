@@ -1,51 +1,49 @@
 .mainCard {
-    border-radius: 10px;
-    width: 700px;
-    height: auto;
-    padding: 24px;
-    margin: 10px;
-
+  border-radius: 10px;
+  width: 700px;
+  height: auto;
+  padding: 24px;
+  margin: 10px;
 }
 
 .mainCard:hover {
-    background-color: rgb(246, 246, 246);
-
+  background-color: rgb(246, 246, 246);
 }
 
 .card-top {
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 20px 0px 20px
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px 0px 20px;
 }
 
 .job-title {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .job-duration {
-    font-size: 14px;
-    color: grey;
+  font-size: 14px;
+  color: grey;
 }
 
 .job-tools {
-    margin: 0px 20px 20px 20px;
+  margin: 0px 20px 20px 20px;
 }
 
 .job-desc {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .tool-bubbles {
-    display: flex;
-    gap: 10px
+  display: flex;
+  gap: 10px;
 }
 .tool-bubble {
-    background-color: pink;
-    border-radius: 10px;
-    padding: 1px 10px 0px 10px;
-    font-size: 14px;
+  background-color: pink;
+  border-radius: 10px;
+  padding: 1px 10px 0px 10px;
+  font-size: 14px;
 }
 
 .job-desc {
-    margin: 0px 20px 0px 20px;
+  margin: 0px 20px 0px 20px;
 }

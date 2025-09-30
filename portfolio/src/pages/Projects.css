@@ -1,25 +1,22 @@
 .projects-title {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    font-size: 26px;
-    font-weight: bold;
-
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 26px;
+  font-weight: bold;
 }
-
 
 .projects-title:hover {
-    color: pink;
+  color: pink;
 }
 .projects {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin: 40px;
-    flex-wrap: wrap;
-
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 40px;
+  flex-wrap: wrap;
 }
 .video {
-    width: 100%;
-    height: auto;
-  }
+  width: 100%;
+  height: auto;
+}
