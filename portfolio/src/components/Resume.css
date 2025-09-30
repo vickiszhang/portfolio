@@ -1,38 +1,38 @@
 .resume {
-    position: fixed;
-    bottom: 1.8rem;
-    right: 1.8rem;
-    width: 140px;
-    height: 40px;
-    border-radius: 30px;
-    background-color: pink;
-    border: none;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    display: flex;
+  position: fixed;
+  bottom: 1.8rem;
+  right: 1.8rem;
+  width: 140px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: pink;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 
-    box-shadow: 0 0 10px rgb(116, 145, 197);
-    animation: pulsate-shadow 1.5s infinite alternate;
-    z-index: 10000
+  box-shadow: 0 0 10px rgb(116, 145, 197);
+  animation: pulsate-shadow 1.5s infinite alternate;
+  z-index: 10000;
 }
 
-.resume img{
-    max-width: 16px;
-    margin-left: 5px;
+.resume img {
+  max-width: 16px;
+  margin-left: 5px;
 }
 
-.resume div{
-    color: white;
-    font-size: 18px;
-    margin-right: 5px;
+.resume div {
+  color: white;
+  font-size: 18px;
+  margin-right: 5px;
 }
 
 @keyframes pulsate-shadow {
-    0% {
-      box-shadow: 0 0 1px rgb(116, 145, 197);
-    }
-    100% {
-      box-shadow: 0 0 20px rgb(116, 145, 197);
-    }
+  0% {
+    box-shadow: 0 0 1px rgb(116, 145, 197);
   }
+  100% {
+    box-shadow: 0 0 20px rgb(116, 145, 197);
+  }
+}
