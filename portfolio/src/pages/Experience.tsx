@@ -7,7 +7,7 @@ const Experience: React.FC = () => {
       <div className="experience-title">experience</div>
       <div className="experience">
         <JobCard
-          title="Software Developmer • Clio"
+          title="Software Developer • Clio"
           duration="Sept 2025 - Present"
           tools={["Ruby on Rails", "Angular.js"]}
           desc=""
@@ -26,7 +26,7 @@ const Experience: React.FC = () => {
         />
         <JobCard
           title="Developer Executive • UBC Esports Association"
-          duration="Oct 2023 - Present"
+          duration="Oct 2023 - Aug 2025"
           tools={["React.js", "JavaScript", "Wordpress"]}
           desc="Currently helping to maintain the club website, and working on a web app to display live club PC room usage."
         />
