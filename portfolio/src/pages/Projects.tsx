@@ -6,13 +6,22 @@ const Projects: React.FC = () => {
     <div id="projects" className="main">
       <div className="projects-title">projects</div>
       <div className="projects">
+
+        <ProjectCard
+          title="Beacon • StormHacks 2025"
+          tools={["Next.js", "Tailwind", "AWS"]}
+          desc="J*b application tracker dashboard paired with a Google extension."
+          image="beacon.png"
+          url="https://skullythirtyfour.itch.io/up-and-away"
+          overlay="Check out the itch page!"
+        />
         <ProjectCard
           title="Up and Away • Global Game Jam 2025"
           tools={["Unity", "C#"]}
           desc="Inspired by Bennett Foddy's Getting Over It. Climb the level by yelling into the microphone. "
           image="upandaway.png"
-          url="https://skullythirtyfour.itch.io/up-and-away"
-          overlay="Check out the itch page!"
+          url="https://devpost.com/software/beacon-a6ob2s"
+          overlay="Check out our Devpost!"
         />
         <ProjectCard
           title="BarrowTech • StormHacks 2024"
